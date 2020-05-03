@@ -4,8 +4,8 @@ RUN apk add --no-cache --update  \
     curl \
     jq \
     dash \
-    sudo \
-    su-exec 
+    sudo 
+    
     
 WORKDIR /tools
 #RUN curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl && chmod +x kubectl
