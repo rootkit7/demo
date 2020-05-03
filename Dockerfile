@@ -1,4 +1,4 @@
-FROM alpine:3.11.6
+FROM alpine:latest
 # some tools
 RUN apk add --no-cache --update  \
     curl \
