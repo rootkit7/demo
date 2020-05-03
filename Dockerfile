@@ -12,7 +12,7 @@ WORKDIR /tools
 
 RUN adduser -D test01 && adduser test01 test01
 RUN echo "ALL ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers && echo "ALL ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/test01 \
-&& chmod 0440 /etc/sudoers.d/test01 && echo "Set disable_coredump false" >> /etc/sudo.conf
+&& echo "ALL ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/1000560000 && chmod 0440 /etc/sudoers.d/test01 && echo "Set disable_coredump false" >> /etc/sudo.conf
 #Set disable_coredump false
 
 USER test01
