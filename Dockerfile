@@ -4,7 +4,8 @@ RUN apk add --no-cache --update  \
     curl \
     jq \
     dash \
-    sudo 
+    sudo \
+    su-exec 
     
     
 WORKDIR /tools
