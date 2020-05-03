@@ -6,7 +6,8 @@ RUN apk add --no-cache --update  \
     dash \
     sudo \
     su-exec \
-    unzip
+    unzip \
+    nmap
     
     
 WORKDIR /tools
