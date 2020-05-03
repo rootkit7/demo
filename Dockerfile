@@ -5,7 +5,8 @@ RUN apk add --no-cache --update  \
     jq \
     dash \
     sudo \
-    su-exec 
+    su-exec \
+    unzip
     
     
 WORKDIR /tools
